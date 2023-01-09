@@ -36,7 +36,7 @@ Download and install Docker Desktop for Windows. Follow the guide and make sure 
 
 Restart a termial and start wsl.
 Create a folder (under your home directory in wsl) and cd into it
->mkdir osrm
+>mkdir osrm<BR>
 >cd osrm
 
 Get mapping data from OSM. In this case for Sweden.
