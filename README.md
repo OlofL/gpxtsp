@@ -1,8 +1,8 @@
 # gpxtsp
 
 Optimize waypoint order in gpx file for a fast route through all of them.
-It is a python program that uses the python_tsp library for optimatation and the gpxpy library for gpx file handling. It needs access to an instance of the osrm routing engine to calculate distances.
-It does not guarantee that it is the optimal route. Travelling Salesman Problem grows exponentially in computing time for the optimal solution. The code is easy to change for optimal solution, but it is only solvable for a limited number of waypoints. The non optimal solution have been tested with a gpx file of 590 waypoints with a total soving time about 10 minutes (Intel Core i5 8:th gen).
+It is a python program that uses the python_tsp library for optimization and the gpxpy library for gpx file handling. It needs access to an instance of the osrm routing engine to calculate distances.
+It does not guarantee that it is the optimal route. Travelling Salesman Problem grows exponentially in computing time for the optimal solution. The code is easy to change for optimal solution, but it is only solvable for a limited number of waypoints. The non optimal solution have been tested with a gpx file of 590 waypoints with a total solving time about 10 minutes (Intel Core i5 8:th gen).
 
 # Prerequistes (Important!)
 
@@ -36,7 +36,7 @@ Download and install Docker Desktop for Windows. Follow the guide and make sure 
 
 Restart a termial and start wsl.
 Create a folder (under your home directory in wsl)
->md osrm
+>mkdir osrm
 
 Get mapping data from OSM. In this case for Sweden.
 >wget http://download.geofabrik.de/europe/sweden-latest.osm.pbf
