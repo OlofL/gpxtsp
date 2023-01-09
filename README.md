@@ -35,8 +35,9 @@ The first part is to get wsl to work on Windows 11 (Windows Subsystem for Linux)
 Download and install Docker Desktop for Windows. Follow the guide and make sure that you can get a container to run.
 
 Restart a termial and start wsl.
-Create a folder (under your home directory in wsl)
+Create a folder (under your home directory in wsl) and cd into it
 >mkdir osrm
+>cd osrm
 
 Get mapping data from OSM. In this case for Sweden.
 >wget http://download.geofabrik.de/europe/sweden-latest.osm.pbf
